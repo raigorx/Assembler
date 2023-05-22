@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Code.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Assembler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format" />
+    <None Include=".editorconfig" />
+    <None Include="packages.config" />
+    <None Include="samples\Add.asm">
+      <Filter>Asm Samples</Filter>
+    </None>
+    <None Include="samples\Max.asm">
+      <Filter>Asm Samples</Filter>
+    </None>
+    <None Include="samples\MaxL.asm">
+      <Filter>Asm Samples</Filter>
+    </None>
+    <None Include="samples\Pong.asm">
+      <Filter>Asm Samples</Filter>
+    </None>
+    <None Include="samples\PongL.asm">
+      <Filter>Asm Samples</Filter>
+    </None>
+    <None Include="samples\RectL.asm">
+      <Filter>Asm Samples</Filter>
+    </None>
+    <None Include="samples\Rect.asm">
+      <Filter>Asm Samples</Filter>
+    </None>
+    <None Include="hackSamples\Pong.hack">
+      <Filter>Hack Samples</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{efd58835-f024-438a-b391-8e3a7e99b90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ee497a30-e56f-40ef-aa81-b26645d11b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asm Samples">
+      <UniqueIdentifier>{b7812205-82cc-42e3-b7b5-b1a589a846ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack Samples">
+      <UniqueIdentifier>{89093704-bbb0-4e77-86cf-13aff562bdbf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
