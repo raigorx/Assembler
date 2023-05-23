@@ -32,11 +32,11 @@ namespace SymbolTable {
       symbolTable.emplace(symbol, make_unique<const int>(address));
     }
 
-    const bool SymbolTable::contains(const string& symbol) {
+    bool SymbolTable::contains(const string& symbol) {
       return Utils::hasMapKey(symbolTable, symbol);
     }
 
-    const int SymbolTable::getAddress(const string& symbol) {
+    int SymbolTable::getAddress(const string& symbol) {
       return *symbolTable[symbol].get();
     }
 }

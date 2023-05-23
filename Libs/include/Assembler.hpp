@@ -26,7 +26,7 @@ namespace Assembler {
 
 			void firstPass();
 
-			const int resolveSymbol();
+			int resolveSymbol();
 
 			const vector<string> secondPass();
 

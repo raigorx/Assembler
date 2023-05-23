@@ -24,7 +24,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".clang-format" />
-    <None Include=".editorconfig" />
     <None Include="packages.config" />
     <None Include="samples\Add.asm">
       <Filter>Asm Samples</Filter>

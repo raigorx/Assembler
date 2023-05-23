@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".clang-format" />
-    <None Include=".editorconfig" />
     <None Include="hackSamples\Pong.hack" />
     <None Include="packages.config" />
     <None Include="samples\Add.asm" />

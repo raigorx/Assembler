@@ -28,8 +28,8 @@ namespace SymbolTable {
 
       void addEntry(const string symbol, const int address);
 
-      const bool contains(const string& symbol);
+      bool contains(const string& symbol);
 
-      const int getAddress(const string& symbol);
+      int getAddress(const string& symbol);
   };
 }

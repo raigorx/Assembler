@@ -101,7 +101,7 @@ namespace Assembler {
 		}
 	}
 
-	const int Assembler::resolveSymbol() {
+	int Assembler::resolveSymbol() {
 		const string symbol = Parser.getSymbol();
 		if (!symbolTable.contains(symbol)) {
 			symbolTable.addEntry(symbol, symbolTable.getVariableCounter());
