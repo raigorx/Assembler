@@ -175,7 +175,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include=".clang-format" />
-    <None Include=".editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp" />
