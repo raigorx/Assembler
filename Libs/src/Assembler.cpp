@@ -82,7 +82,7 @@ namespace Assembler {
 
 	void Assembler::firstPass() {
 		Parser.advance();
-		while (!Parser.getCurrentLine().empty())
+		while (Parser.hasMoreLines())
 		{
 			
 			const string instructionType = Parser.getInstructionType();
@@ -116,7 +116,7 @@ namespace Assembler {
 		vector<string> linesToFile = {};
 
 		Parser.advance();
-		while (!Parser.getCurrentLine().empty())
+		while (Parser.hasMoreLines())
 		{
 			const string instructionType = Parser.getInstructionType();
 

@@ -23,7 +23,6 @@ namespace Parser {
 
     bool isValidFile(const auto& asmFilePath);
 
-    bool hasMoreLines();
 
     bool skipComment();
 
@@ -50,6 +49,8 @@ namespace Parser {
    public:
 
     Parser(const char* asmFilePath);
+
+    bool hasMoreLines();
 
     string getCurrentLine() const;
 
