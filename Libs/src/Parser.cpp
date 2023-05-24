@@ -99,7 +99,7 @@ namespace Parser {
     if (isL_Instruction()) return InstTYPE::L_Instruction;
     if (!hasMoreLines()) return "EOF";
 
-    cout << "InstructionType not recognized" << endl;
+    cout << "InstructionType not recognized: " << currentInstruction << endl;
     exit(-1);
   }
 
